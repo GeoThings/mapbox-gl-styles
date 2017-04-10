@@ -59,7 +59,7 @@ Example:
 }
 ```
  
-provided that say if we are hosting under Apache, the config which is usually under `/etc/apache2/sites-enabled/000-default.conf` should contain the rule under `<VirtualHost>` like:
+provided that say if we are hosting under Apache, the config which is usually under `/etc/apache2/sites-enabled/000-default.conf` should contain the rule under `<VirtualHost>` which in most simple form can look like:
 
 ```
 Alias /mapbox-gl OUR_PATH_TO_MAPBOX_GL_STYLES
