@@ -47,15 +47,15 @@ Example:
 	"sprite": "OUR_SERVER_URL/mapbox-gl/sprites/bright-v9",
 	"glyphs": "OUR_SERVER_URL/mapbox-gl/glyphs/{fontstack}/{range}.pbf",
 	"sources": {
-    "natural_earth_raster": {
-      "type": "raster",
-      "tiles": [
-        "OUR_SERVER_URL/mapbox-gl/raster/natural_earth_2_shaded_relief/{z}/{x}/{y}.webp.png"
-      ],
-      "minzoom": 0,
-      "maxzoom": 6
-    }
-  }
+		"natural_earth_raster": {
+			"type": "raster",
+			"tiles": [
+				"OUR_SERVER_URL/mapbox-gl/raster/natural_earth_2_shaded_relief/{z}/{x}/{y}.webp.png"
+			],
+			"minzoom": 0,
+			"maxzoom": 6
+		}
+	}
 }
 ```
  
